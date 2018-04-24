@@ -12,7 +12,7 @@ package personas;
 public class Personas {
 
     public static void main(String[] args) 
-    {   Persona persona1 = new Persona("Leonardo", "Díaz", 29714721, 35);
+    {  /* Persona persona1 = new Persona("Leonardo", "Díaz", 29714721, 35);*/
         Asignatura asignatura1 = new Asignatura("Matemáticas", 1, 20, 3);
         Alumno alumno1 = new Alumno(asignatura1, "Leonardo", "Díaz", 29714721, 35);
         Curso cursillo = new Curso(20, asignatura1);
@@ -26,7 +26,7 @@ public class Personas {
         System.out.println("Nombre del Curso: " + asignatura1.getNombre());
         System.out.println("Cantidad de Alumnos: " + cursillo.getCantAlumnos());
         System.out.println("Nombre de Alumno:" + alumno1.getNombre());
-        System.out.println("Nombre de Alumno:" );
+        System.out.println("Nombre de Alumno:" + ingresantes[0].getNombre());
     }
     
 }
